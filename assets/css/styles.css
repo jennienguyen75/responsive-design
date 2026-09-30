@@ -18,6 +18,30 @@ body {
 
 h1 {
 	font-family: "Manufacturing Consent", system-ui;
+	color: var(--deep-mocha);
 	font-size: 4em;
+	border-top: 2px solid var(--deep-mocha);
+	border-bottom: 2px solid var(--deep-mocha);
+}
 
+.dateline {
+	font-size: 1.6em;
+	margin-bottom: 30px;
+}
+
+.article {
+	padding: 10px;
+	border-bottom: 2px solid var(--deep-mocha);
+}
+
+p a {
+	text-decoration: none;
+	color: var(--blue-bell);
+	font-weight: bold;
+	border-bottom: 2px solid var(--blue-bell);
+}
+
+p a:hover {
+	color: var(--grey-olive);
+	border-bottom: 2px dashed var(--grey-olive);
 }
